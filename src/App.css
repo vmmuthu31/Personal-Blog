@@ -1,0 +1,472 @@
+.container {
+    max-width: 70pc;
+}
+
+.container *, .profile-container * {
+  text-decoration: none;
+}
+
+.background-container {
+    /* position: absolute; */
+    height: 30pc;
+    width: 100%;
+}
+
+.background-container .background, .background-container .background-shade{
+    position: absolute;
+    margin: auto;
+    top: 0;right: 0;left: 0;
+    z-index: -1;
+}
+
+.background-shade {
+    height: 30pc;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(30, 35, 51, 0) 60%, #1E2333 100%);
+}
+
+.background {
+    height: 30pc;
+    width: 100%;
+    background: url('https://w0.peakpx.com/wallpaper/214/514/HD-wallpaper-fantasy-castle-moon-dark-clouds-bridge-fantasy.jpg');
+    background-size: 100%;
+    background-position: center;
+}
+
+.projects, .about-page, .blogs-page, .blog-container {
+    min-height: 20pc;
+}
+
+.profile-container {
+    height: 20pc;
+    width: fit-content;
+    position: absolute;
+    margin: auto;
+    top: 10%;right: 0;left: 0;
+    z-index: 3 !important;
+}
+
+.profile-container * {
+    color: #fff;
+}
+
+.profile-name {
+    font-family: 'Yellowtail', sans-serif;
+    font-size: 40px;
+    /* letter-spacing: 3px; */
+}
+
+.profile-picture {
+    cursor: none;
+    width: 220px;
+    border-radius: 50%;
+    transition: ease-out .3s;
+}
+
+.profile-picture:hover {
+    transform: scale(2);
+}
+
+.profile-desc {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.socials {
+    max-width: 70%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.socials * {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .background {
+        background-size: cover;
+    }
+    .profile-picture {
+        height: 9pc;
+        width: 9pc;
+    }
+    .profile-name {
+        font-size: 27px;
+    }
+    .profile-desc {
+        font-size: 14px;
+    }
+}
+
+.tabs {
+    margin-top: -20px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.tabs * {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    color: #7A9FB4;
+    /* transition: .3s; */
+}
+.tabs *.open {
+    color: #fff;
+    border-bottom: 2px solid #7A9FB4;
+    /* font-size: 20px; */
+}
+
+.blog-trailer * {
+    font-family: Poppins, sans-serif;
+    text-align: left;
+}
+
+.blog-trailer {
+    height: fit-content;
+    width: calc(100% - 100px);
+    margin-bottom: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 320px 1fr;
+}
+
+.blog-trailer-thumbnail {
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+}
+.blog-trailer-thumbnail:hover {
+    background-size: 120%;
+}
+.blog-trailer-info {
+    padding: 20px 0;
+}
+.blog-trailer-date {
+    color: #6E798C;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.blog-trailer-name {
+    font-family: 'DM Serif Text', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.blog-trailer-desc {
+    color: #A0C6DC;
+    font-size: 14px;
+    margin-bottom: 30px;
+    max-height: 67px;
+    overflow: hidden;
+}
+.blog-trailer-link {
+    font-size: 14px;
+    color: #A0C6DC;
+}
+.blog-trailer-link:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .blog-trailer {
+        width: calc(100% - 50px);
+        grid-template-columns: unset;
+        grid-gap: 14px;
+        grid-template-rows: auto 1fr;
+    }
+    .blog-trailer-thumbnail {
+        height: 280px;
+        width: 100%;
+    }
+    .blog-trailer-desc {
+        max-height: fit-content;
+        overflow: visible;
+    }
+    .blog-trailer-info {
+        padding: 0;
+    }
+    .blog-trailer-name {
+        font-size: 28px;
+    }
+}
+
+.projects-page {
+    padding: 0 20px;
+    display: grid;
+    grid-gap: 17px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.projects-page * {
+    text-align: left;
+    color: #7A9FB4;
+}
+
+.project-thumbnail {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-name {
+    color: #fff;
+    font-size: 26px;
+}
+
+.project-tools {
+    width: 100%;
+    display: flex;
+    margin: 5px 0 10px 0;
+}
+
+.project-tools span {
+    font-size: 10px;
+    border-radius: 4px;
+    margin-right: 6px;
+    padding: 4px 8px;
+    background-color: #7A9FB4;
+    color: #1E2333;
+    white-space: nowrap;
+}
+
+.project-desc {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.project-links {
+    width: fit-content;
+    text-align: center;
+    display: grid;grid-template-columns: auto auto;
+}
+
+.project-links a {
+    margin: auto 0;
+    width:fit-content;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto auto;
+}
+
+.project-links a:hover * {
+    color: #fff;
+}
+
+.project-links abbr {
+    margin: auto 0;
+}
+
+.project-links span {
+    margin: auto 0;
+    margin-right: 12px;
+}
+
+.blog-page {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;left: 0;
+    z-index: 4;
+}
+
+.blog-page * {
+    text-align: left;
+}
+
+.blog {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #1E2333;
+}
+
+.blog-background,.blog-container {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    top: 0;left: 0;
+}
+
+.blog-background {
+    position: fixed;
+    background-size: cover !important;
+    filter: brightness(0.4) !important;
+    background-position: center !important;
+}
+
+
+.blog-container {
+    position: absolute;
+    margin: auto;
+    right: 0;left: 0;
+    color: #fff;
+    padding: 30px;
+    max-width: 70pc;
+}
+
+.back-btn {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-btn i {
+    margin-right: 10px;
+}
+
+.blog-title {
+    font-size: 70px;
+    font-family: 'DM Serif Text', serif;
+    /* max-width: 45pc; */
+    /* font-style: italic; */
+}
+
+.blog-postdate {
+    font-family: Poppins, sans-serif;
+}
+
+.blog-title {
+    margin: 20px 0 0 10px;
+}
+
+.blog-content {
+    margin: 40px 0 0 10px;
+    font-size: 20px;
+}
+
+.blog-content a {
+    color: #91d3ff;
+    text-decoration: underline !important;
+}
+
+.blog-content code {
+    background: #161820c7 !important;
+    padding: 2px 7px;
+    backdrop-filter: blur(4px);
+    border-radius: 4px;
+}
+
+.blog-content code * {
+    font-family: monospace !important;
+}
+
+.blog-content code.lang {
+    display: block;
+    width: 100%;
+    background: #161820c7 !important;
+    padding: 2px 7px;
+    backdrop-filter: blur(4px);
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.blog-content blockquote {
+    border-radius: 3px;
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+    margin: 0;
+    padding: 0 20px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.089);
+    font-size: 24px;
+}
+
+.blog-content img, .blog-content video, .blog-content iframe {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 7px;
+    margin: 0;
+}
+
+.blog-postdate {
+    margin-left: 13px;
+}
+
+@media (max-width: 768px) {
+    .back-btn {
+        font-size: 16px;
+    }
+    .blog-container {
+        padding: 17px;
+    }
+    .blog-title, .blog-content, .blog-postdate {
+        margin: 0;
+    }
+    .blog-title {
+        font-size: 45px;
+        margin-top: 10px;
+    }
+    .blog-postdate {
+        margin-top: 10px;
+    }
+    .blog-content {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .back-btn {
+        font-size: 12px;
+    }
+    .blog-container {
+        padding: 17px;
+    }
+    .blog-title, .blog-content, .blog-postdate {
+        margin: 0;
+    }
+    .blog-title {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .blog-postdate {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .blog-content {
+    font-size: 16px;
+    margin-top: 40px;
+    }
+}
+.about-page h1, .blogs-page h1, .projects h1{
+    color: #7A9FB4;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.about-page .socials {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    max-width: 20pc;
+}
+.about-page .socials * {
+    color: #fff;
+    font-size: 24px;
+}
+
+.about-code {
+    width: 100% !important ;
+    /* height: 1080px !important; */
+    background-color: #1E2333; 
+}
+.ace_gutter {
+    background-color: #1E2333 !important; 
+}
+.about-code * {
+    font-family: monospace !important;
+}
+
+.footer{
+    margin-top: 40px;
+    color: #A0C6DC;
+    background-color: #090E1E;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
