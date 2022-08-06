@@ -18,7 +18,7 @@ function Projects() {
       projectdesc:
         "It is our college departmental website built in react components.!",
       github: "https://github.com/vmmuthu31/JEC-CSE",
-      website: "https://github.com/vmmuthu31/JEC-CSE",
+      website: "https://jec-site.netlify.app/",
       tools: ["FirebaseJS", "ReactJS", "AceJS", "MaterialUI"],
     },
     {
@@ -31,16 +31,7 @@ function Projects() {
       website: "https://github.com/E-ggle/HortiPedia",
       tools: ["ReactJS", "FirebaseJS"],
     },
-    {
-      projectname: "Twitter in Web3",
-      projectthumbnail:
-        "https://user-images.githubusercontent.com/88650559/179293522-f79adfc6-2c7d-4a4c-813b-756c7bec0af2.png",
-      projectdesc:
-        "Nextjs is used for frontend, solidity is for implementation of smart contracts, sanity.i.o is used to manage the text and images.",
-      github: "https://github.com/vmmuthu31/Twitter-using-web3-and-blockchain",
-      website: "https://github.com/vmmuthu31/Twitter-using-web3-and-blockchain",
-      tools: ["ReactJS", "AceJS", "REST API", "Online-Compiler"],
-    },
+
     {
       projectname: "Dynamic Portfolio",
       projectthumbnail:
@@ -54,7 +45,7 @@ function Projects() {
     {
       projectname: "E-ggle Educational Website",
       projectthumbnail:
-        "https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/Images/readme-img.png",
+        "https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/e-ggle.png",
       projectdesc:
         "This website is where you can get popular courses which can improve your skills at the next level.",
       github: "https://github.com/vmmuthu31/E-ggle",
@@ -144,7 +135,7 @@ function Projects() {
     {
       projectname: "Drum Kit",
       projectthumbnail:
-        "https://user-images.githubusercontent.com/88650559/177109813-8d71d61e-6449-45c7-a8a2-081207a96161.png",
+        "https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/drumkit.png",
       projectdesc: "Drumkit completely made by using JS and HTML.",
       github: "https://github.com/vmmuthu31/Drumkit",
       website: "https://vmmuthu31.github.io/Drumkit/",
