@@ -19,7 +19,7 @@ function Projects() {
         "It is our college departmental website built in react components.!",
       github: "https://github.com/vmmuthu31/JEC-CSE",
       website: "https://jec-site.netlify.app/",
-      tools: ["FirebaseJS", "ReactJS", "AceJS", "MaterialUI"],
+      tools: ["ReactJS", "MaterialUI", "Bootstrap"],
     },
     {
       projectname: "HortiPedia",
@@ -29,9 +29,8 @@ function Projects() {
         "Hortipedia is a question and answer website for professional and developing farmers.",
       github: "https://github.com/E-ggle/HortiPedia",
       website: "https://github.com/E-ggle/HortiPedia",
-      tools: ["ReactJS", "FirebaseJS"],
+      tools: ["ReactJS", "Express", "Mongodb", "Nodejs", "REST API"],
     },
-
     {
       projectname: "Dynamic Portfolio",
       projectthumbnail:
@@ -40,7 +39,7 @@ function Projects() {
         "It is Portfolio website where the developers can modify it according to the user needs.",
       github: "https://github.com/vmmuthu31/My_Portfolio",
       website: "https://vm-portfolio3.netlify.app",
-      tools: ["ReactJS", "AceJS", "REST API", "Online-Compiler"],
+      tools: ["ReactJS", "Bootstrap", "Type-writter"],
     },
     {
       projectname: "E-ggle Educational Website",
@@ -50,7 +49,7 @@ function Projects() {
         "This website is where you can get popular courses which can improve your skills at the next level.",
       github: "https://github.com/vmmuthu31/E-ggle",
       website: "https://e-ggle.netlify.app/",
-      tools: ["ReactJS", "AceJS", "REST API", "Online-Compiler"],
+      tools: ["ReactJS", "Bootstrap", "React-icons"],
     },
     {
       projectname: "Project Management System",
@@ -60,7 +59,7 @@ function Projects() {
         "It was built in MERN stack by using the GraphQL for the API call. It was an Dynamic Application where the user can Create/Read/Update/Delete the content.",
       github: "https://github.com/vmmuthu31/Project-Management-System",
       website: "https://github.com/vmmuthu31/Project-Management-System",
-      tools: ["DownloadJS", "VanillaJS", "CompressJS"],
+      tools: ["ReactJs", "ExpressJS", "MongoDB", "NodeJS", "GraphQL"],
     },
 
     {
@@ -71,7 +70,14 @@ function Projects() {
         "LMS Elearn platform, Mainly focused on the Authentication using passport.js and more tools.",
       github: "https://github.com/vmmuthu31/LMS",
       website: "https://github.com/vmmuthu31/LMS",
-      tools: ["ReactJS", "FirebaseJS", "MaterialUI"],
+      tools: [
+        "ReactJs",
+        "ExpressJS",
+        "MongoDB",
+        "NodeJS",
+        "RESTAPI",
+        "MaterialUI",
+      ],
     },
     {
       projectname: "Task-CrudAPP",
@@ -80,7 +86,7 @@ function Projects() {
       projectdesc: "Crud Application used to manage the Task of the User.",
       github: "https://github.com/vmmuthu31/Task-CrudAPP",
       website: "https://github.com/vmmuthu31/Task-CrudAPP",
-      tools: ["ElectronJS", "LocalStorage", "React Native", "Drag and Drop"],
+      tools: ["ReactJs", "ExpressJS", "MongoDB", "NodeJS"],
     },
     {
       projectname: "Weather_API_App-using-Express",
@@ -90,7 +96,7 @@ function Projects() {
         "It an Weather Application build using the express get the API from the openweather.org and gives the post request to user.",
       github: "https://github.com/Jaagrav/Snapshot",
       website: "https://snapshotcam.netlify.app",
-      tools: ["Image Manipulation", "DownloadJS", "UserMedia"],
+      tools: ["Rest API", "ExpressJS", "MongoDB", "NodeJS"],
     },
     {
       projectname: "Google-Clone-using-React",
@@ -100,7 +106,7 @@ function Projects() {
         "Google Clone made by using the Goolge API with the famous JS Library framework React.",
       github: "https://github.com/vmmuthu31/Google-Clone-using-React",
       website: "https://github.com/vmmuthu31/Google-Clone-using-React",
-      tools: ["Android", "Java", "Android Studio"],
+      tools: ["ReactJS", "Google-API", "Bootstrap"],
     },
     {
       projectname: "NotesApp-using-Node",
@@ -110,7 +116,16 @@ function Projects() {
         "It is a notes application connected to the database which get the notes from the user and display their needs",
       github: "https://github.com/vmmuthu31/NotesApp-using-Node",
       website: "https://github.com/vmmuthu31/NotesApp-using-Node",
-      tools: ["JavaScript", "Sorting Algorithms"],
+      tools: ["NodeJS", "HTML"],
+    },
+    {
+      projectname: "Calculator in Reactjs",
+      projectthumbnail:
+        "https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/calc.png",
+      projectdesc: "A simple Calculator Application built in React js.",
+      github: "https://github.com/vmmuthu31/CalcinReact",
+      website: "https://u2r4k.csb.app/",
+      tools: ["ReactJS"],
     },
     {
       projectname: "NetFlix-Clone",
@@ -120,7 +135,7 @@ function Projects() {
         "This project consist of Home page, Sign up page, Browser page in HTML, CSS and JavaScript.",
       github: "https://github.com/vmmuthu31/netflix-clone",
       website: "https://github.com/vmmuthu31/netflix-clone",
-      tools: ["JavaScript"],
+      tools: ["HTML", "CSS", "JavaScript"],
     },
     {
       projectname: "Tic-Tac-Toe",
@@ -130,7 +145,7 @@ function Projects() {
         "Fragments is a light weight code editor which supports multiple languages, store your code/snippets here for future use.",
       github: "https://github.com/vmmuthu31/tic-tac-toe-",
       website: "https://vm-tictactoe.netlify.app/",
-      tools: ["VanillaJS", "AceJS", "LocalStorage"],
+      tools: ["HTML", "CSS", "JavaScript"],
     },
     {
       projectname: "Drum Kit",
@@ -139,7 +154,7 @@ function Projects() {
       projectdesc: "Drumkit completely made by using JS and HTML.",
       github: "https://github.com/vmmuthu31/Drumkit",
       website: "https://vmmuthu31.github.io/Drumkit/",
-      tools: ["VanillaJS", "AceJS", "LocalStorage"],
+      tools: ["HTML", "CSS", "JavaScript"],
     },
   ];
   return (
