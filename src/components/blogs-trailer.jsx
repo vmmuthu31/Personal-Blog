@@ -1,20 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
 
 function BlogsTrailer(props) {
-    return (
-        <div className="blog-trailer">
-            <Link className="blog-trailer-link" to={"/stories" + props.link}><div className="blog-trailer-thumbnail" style={{ background: `url("${props.thumbnail}")`, backgroundSize: "cover", backgroundPosition: "center" }}></div></Link>
-            <div className="blog-trailer-info">
-                <div className="blog-trailer-date">{props.date}</div>
-                <Link className="blog-trailer-link" to={"/stories" + props.link}><div className="blog-trailer-name">{props.name}</div></Link>
-                <div className="blog-trailer-desc">{props.desc}</div>
-                <Link className="blog-trailer-link" to={"/stories" + props.link}>
-                    Read more →
-                </Link>
-            </div>
-        </div>
-    )
+  return (
+    <div className="blog-trailer">
+      <a className="blog-trailer-link" href={props.link}>
+        <div
+          className="blog-trailer-thumbnail"
+          style={{
+            background: `url("${props.thumbnail}")`,
+            backgroundSize: "cover",
+          }}
+        ></div>
+      </a>
+      <div className="blog-trailer-info">
+        <div className="blog-trailer-date">{props.date}</div>
+        <a className="blog-trailer-link" href={props.link}>
+          <div className="blog-trailer-name">{props.name}</div>
+        </a>
+        <div className="blog-trailer-desc">{props.desc}</div>
+        <a className="blog-trailer-link" href={props.link}>
+          Read more →
+        </a>
+      </div>
+    </div>
+  );
 }
 
 export default BlogsTrailer;

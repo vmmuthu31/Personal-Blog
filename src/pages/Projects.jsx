@@ -32,6 +32,16 @@ function Projects() {
       tools: ["ReactJS", "Express", "Mongodb", "Nodejs", "REST API"],
     },
     {
+      projectname: "Twitter in Web3",
+      projectthumbnail:
+        "https://user-images.githubusercontent.com/88650559/179293522-f79adfc6-2c7d-4a4c-813b-756c7bec0af2.png",
+      projectdesc:
+        "Nextjs is used for frontend, solidity is for implementation of smart contracts, sanity.i.o is used to manage the text and images.",
+      github: "https://github.com/vmmuthu31/Twitter-using-web3-and-blockchain",
+      website: "https://github.com/vmmuthu31/Twitter-using-web3-and-blockchain",
+      tools: ["NextJS", "Bootstrap", "SanityIo", "Metamask", "Web3"],
+    },
+    {
       projectname: "Dynamic Portfolio",
       projectthumbnail:
         "https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/Images/readme-img.png",
