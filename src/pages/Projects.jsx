@@ -12,54 +12,66 @@ function Projects() {
   }, []);
   let projects = [
     {
-      projectname: "Xper",
+      projectname: "Departmental Website",
       projectthumbnail:
-        "https://dev-to-uploads.s3.amazonaws.com/i/ion9y9l2677xtks6thzz.png",
+        "https://user-images.githubusercontent.com/88650559/180494873-43f4d449-20c4-461c-8df4-7dbb133e9960.png",
       projectdesc:
-        "Xper is a realtime code editor where you can both write and save your code in realtime!",
-      github: "https://github.com/Jaagrav/Xper",
-      website: "https://xperbycoder.netlify.app",
+        "It is our college departmental website built in react components.!",
+      github: "https://github.com/vmmuthu31/JEC-CSE",
+      website: "https://github.com/vmmuthu31/JEC-CSE",
       tools: ["FirebaseJS", "ReactJS", "AceJS", "MaterialUI"],
     },
     {
-      projectname: "CodeX",
+      projectname: "HortiPedia",
       projectthumbnail:
-        "https://camo.githubusercontent.com/3e7eda558193d190d18013a9acbcccb0f030e5747ab96c96699bc025d3997001/68747470733a2f2f6465762d746f2d75706c6f6164732e73332e616d617a6f6e6177732e636f6d2f692f3666306c37306437337366376d3772617a786d742e706e67",
+        "https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/Horti.png",
       projectdesc:
-        "CodeX is an online compiler for various languages like Java, C++, Python, etc. Execute code in various languages on your own website for free with the CodeX API!!!",
-      github: "https://github.com/Jaagrav/CodeX",
-      website: "https://codexweb.netlify.app/",
+        "Hortipedia is a question and answer website for professional and developing farmers.",
+      github: "https://github.com/E-ggle/HortiPedia",
+      website: "https://github.com/E-ggle/HortiPedia",
+      tools: ["ReactJS", "FirebaseJS"],
+    },
+    {
+      projectname: "Twitter in Web3",
+      projectthumbnail:
+        "https://user-images.githubusercontent.com/88650559/179293522-f79adfc6-2c7d-4a4c-813b-756c7bec0af2.png",
+      projectdesc:
+        "Nextjs is used for frontend, solidity is for implementation of smart contracts, sanity.i.o is used to manage the text and images.",
+      github: "https://github.com/vmmuthu31/Twitter-using-web3-and-blockchain",
+      website: "https://github.com/vmmuthu31/Twitter-using-web3-and-blockchain",
       tools: ["ReactJS", "AceJS", "REST API", "Online-Compiler"],
     },
     {
-      projectname: "Fragments",
+      projectname: "Dynamic Portfolio",
       projectthumbnail:
-        "https://dev-to-uploads.s3.amazonaws.com/i/vmtimz4599ns399258gg.png",
+        "https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/Images/readme-img.png",
       projectdesc:
-        "Fragments is a light weight code editor which supports multiple languages, store your code/snippets here for future use.",
-      github: "https://github.com/Jaagrav/Fragments",
-      website: "https://fragmentsbycoder.netlify.app",
-      tools: ["VanillaJS", "AceJS", "LocalStorage"],
+        "It is Portfolio website where the developers can modify it according to the user needs.",
+      github: "https://github.com/vmmuthu31/My_Portfolio",
+      website: "https://vm-portfolio3.netlify.app",
+      tools: ["ReactJS", "AceJS", "REST API", "Online-Compiler"],
     },
     {
-      projectname: "Scissor",
+      projectname: "E-ggle Educational Website",
       projectthumbnail:
-        "https://dev-to-uploads.s3.amazonaws.com/i/a4reysg757efm6ulcyfv.png",
+        "https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/Images/readme-img.png",
       projectdesc:
-        "An online image compressor that runs locally on your browser to quickly compress your images effectively faster than many other online image compressors out there.",
-      github: "https://github.com/Jaagrav/Scissor",
-      website: "https://scissor.netlify.app",
+        "This website is where you can get popular courses which can improve your skills at the next level.",
+      github: "https://github.com/vmmuthu31/E-ggle",
+      website: "https://e-ggle.netlify.app/",
+      tools: ["ReactJS", "AceJS", "REST API", "Online-Compiler"],
+    },
+    {
+      projectname: "Project Management System",
+      projectthumbnail:
+        "https://raw.githubusercontent.com/vmmuthu31/Project-Management-System/main/Screenshot%20(44).png",
+      projectdesc:
+        "It was built in MERN stack by using the GraphQL for the API call. It was an Dynamic Application where the user can Create/Read/Update/Delete the content.",
+      github: "https://github.com/vmmuthu31/Project-Management-System",
+      website: "https://github.com/vmmuthu31/Project-Management-System",
       tools: ["DownloadJS", "VanillaJS", "CompressJS"],
     },
-    {
-      projectname: "HortiPedia",
-      projectthumbnail: "",
-      projectdesc:
-        "A Fun Chat App where you can see what your friend types even before he/she sends the text.",
-      github: "https://github.com/Jaagrav/ConverseChat",
-      website: "https://conversechatv2.netlify.app",
-      tools: ["ReactJS", "FirebaseJS"],
-    },
+
     {
       projectname: "LMS",
       projectthumbnail:
@@ -118,6 +130,25 @@ function Projects() {
       github: "https://github.com/vmmuthu31/netflix-clone",
       website: "https://github.com/vmmuthu31/netflix-clone",
       tools: ["JavaScript"],
+    },
+    {
+      projectname: "Tic-Tac-Toe",
+      projectthumbnail:
+        "https://user-images.githubusercontent.com/88650559/177109813-8d71d61e-6449-45c7-a8a2-081207a96161.png",
+      projectdesc:
+        "Fragments is a light weight code editor which supports multiple languages, store your code/snippets here for future use.",
+      github: "https://github.com/vmmuthu31/tic-tac-toe-",
+      website: "https://vm-tictactoe.netlify.app/",
+      tools: ["VanillaJS", "AceJS", "LocalStorage"],
+    },
+    {
+      projectname: "Drum Kit",
+      projectthumbnail:
+        "https://user-images.githubusercontent.com/88650559/177109813-8d71d61e-6449-45c7-a8a2-081207a96161.png",
+      projectdesc: "Drumkit completely made by using JS and HTML.",
+      github: "https://github.com/vmmuthu31/Drumkit",
+      website: "https://vmmuthu31.github.io/Drumkit/",
+      tools: ["VanillaJS", "AceJS", "LocalStorage"],
     },
   ];
   return (

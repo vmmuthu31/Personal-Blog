@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-
+import Type from "./pages/Type";
 import Blogs from "./pages/Blogs";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
@@ -21,7 +21,9 @@ function App(props) {
                 className="profile-picture"
               />
               <div className="profile-name">Vairamuthu M</div>
-              <div className="profile-desc">Web Developer & UX Designer</div>
+              <div className="profile-desc">
+                <Type />
+              </div>
               <br />
               <div className="socials">
                 <a href="https://github.com/vmmuthu31" target="_blank">
