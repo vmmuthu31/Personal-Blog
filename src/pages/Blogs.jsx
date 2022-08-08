@@ -24,7 +24,7 @@ function Blogs() {
         In simple words, google summer of code is a program that promotes or provides an opportunity for Open Source Contributions in Open source Organizations.
         
         First Google announces the program officially and starts the application for an Open source organization to participate, then the open-source organization is announced along with its projects for GSoC, then contributors contact and submit the proposal for a project at the respective organization. Then after evaluating the proposal, the organization Admin sent the list of students from their end, then google provides the slots and announces the accepted contributors and Projects for each organization."
-        thumbnail="https://miro.medium.com/max/1400/1*QSM035wxkAzeCsLVGFf14w.png"
+        thumbnail="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyw4WEGJefrS-hQSFvoVhYc1fvwZ7Y6Qi7kfbKmGvpvX0q5aPl7mrcm5L1rrRhz9hrmpM&usqp=CAU"
         date="Jun 29"
         link={
           "https://medium.com/@mvairamuthu20000/how-i-crack-gsoc-2022-8e33005a02ff"
@@ -50,7 +50,7 @@ function Blogs() {
         In simple words, google summer of code is a program that promotes or provides an opportunity for Open Source Contributions in Open source Organizations.
         
         First Google announces the program officially and starts the application for an Open source organization to participate, then the open-source organization is announced along with its projects for GSoC, then contributors contact and submit the proposal for a project at the respective organization. Then after evaluating the proposal, the organization Admin sent the list of students from their end, then google provides the slots and announces the accepted contributors and Projects for each organization."
-        thumbnail="https://miro.medium.com/max/1400/1*QSM035wxkAzeCsLVGFf14w.png"
+        thumbnail="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyw4WEGJefrS-hQSFvoVhYc1fvwZ7Y6Qi7kfbKmGvpvX0q5aPl7mrcm5L1rrRhz9hrmpM&usqp=CAU"
         date="Jun 29"
         link={
           "https://medium.com/@mvairamuthu20000/how-i-crack-gsoc-2022-8e33005a02ff"

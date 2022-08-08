@@ -80,14 +80,7 @@ function Projects() {
         "LMS Elearn platform, Mainly focused on the Authentication using passport.js and more tools.",
       github: "https://github.com/vmmuthu31/LMS",
       website: "https://github.com/vmmuthu31/LMS",
-      tools: [
-        "ReactJs",
-        "ExpressJS",
-        "MongoDB",
-        "NodeJS",
-        "RESTAPI",
-        "MaterialUI",
-      ],
+      tools: ["ReactJs", "ExpressJS", "MongoDB", "NodeJS", "RESTAPI"],
     },
     {
       projectname: "Task-CrudAPP",
@@ -131,7 +124,7 @@ function Projects() {
     {
       projectname: "Calculator in Reactjs",
       projectthumbnail:
-        "https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/calc.png",
+        "https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/calc.png",
       projectdesc: "A simple Calculator Application built in React js.",
       github: "https://github.com/vmmuthu31/CalcinReact",
       website: "https://u2r4k.csb.app/",

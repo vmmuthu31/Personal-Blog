@@ -136,12 +136,14 @@
 
 .blog-trailer-thumbnail {
     height: 320px;
+    position: relative;
     width: 320px;
-    
+    background:no-repeat 830px 320px 300px 300px;
     border-radius: 10px;
 }
 .blog-trailer-thumbnail:hover {
     background-size: 120%;
+    
 }
 .blog-trailer-info {
     padding: 20px 0;

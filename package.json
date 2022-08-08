@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^12.1.10",
     "ace-builds": "^1.8.1",
     "bootstrap": "^5.2.0",
-    "firebase": "^8.0.1",
     "highlight.js": "^10.4.0",
     "marked": "^1.2.5",
     "react": "^17.0.1",
