@@ -97,8 +97,8 @@ function Projects() {
         "https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/src/Assets/Projects/weather.jpeg",
       projectdesc:
         "It an Weather Application build using the express get the API from the openweather.org and gives the post request to user.",
-      github: "https://github.com/Jaagrav/Snapshot",
-      website: "https://snapshotcam.netlify.app",
+      github: "https://github.com/vmmuthu31/Weather_API_App-using-Express",
+      website: "https://vm-weather.netlify.app/",
       tools: ["Rest API", "ExpressJS", "MongoDB", "NodeJS"],
     },
     {
