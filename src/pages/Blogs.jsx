@@ -17,17 +17,13 @@ function Blogs() {
       <h1>Stories</h1>
       <BlogsTrailer
         key="link"
-        name="What is my Contribution in GSOC'22 Midterm Evaluation"
-        desc="
-        It is not an internship at Google, or anything working with Google. Make sure your relative does not post it on the WhatsApp group, so…..
-        
-        In simple words, google summer of code is a program that promotes or provides an opportunity for Open Source Contributions in Open source Organizations.
-        
+        name="Final Work Submission of GSOC”22"
+        desc="        
         First Google announces the program officially and starts the application for an Open source organization to participate, then the open-source organization is announced along with its projects for GSoC, then contributors contact and submit the proposal for a project at the respective organization. Then after evaluating the proposal, the organization Admin sent the list of students from their end, then google provides the slots and announces the accepted contributors and Projects for each organization."
         thumbnail="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyw4WEGJefrS-hQSFvoVhYc1fvwZ7Y6Qi7kfbKmGvpvX0q5aPl7mrcm5L1rrRhz9hrmpM&usqp=CAU"
         date="Jun 29"
         link={
-          "https://medium.com/@mvairamuthu20000/how-i-crack-gsoc-2022-8e33005a02ff"
+          "https://medium.com/@mvairamuthu20000/final-work-submission-of-gsoc-22-34b896743273"
         }
       />
       <BlogsTrailer

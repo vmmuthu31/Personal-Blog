@@ -145,7 +145,7 @@ function Projects() {
       projectthumbnail:
         "https://user-images.githubusercontent.com/88650559/177109813-8d71d61e-6449-45c7-a8a2-081207a96161.png",
       projectdesc:
-        "Fragments is a light weight code editor which supports multiple languages, store your code/snippets here for future use.",
+        "Tic-Tac-Toe Is an X or O gaming app. It was built with Javascript Event Listeners ",
       github: "https://github.com/vmmuthu31/tic-tac-toe-",
       website: "https://vm-tictactoe.netlify.app/",
       tools: ["HTML", "CSS", "JavaScript"],

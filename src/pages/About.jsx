@@ -13,82 +13,62 @@ function About() {
   return (
     <div className="about-page">
       <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-        <h3>Student &amp; Full Stack Developer</h3>
-        <p className="fst-italic">
-          Hello Friends, I am Vairamuthu student of Bachelor of Engineering in
-          Computer Science and Engineering at Jaya Engineering College.
+        <h1>Student &amp; Full Stack Developer</h1>
+        <p className="fst-italic text-white ">
+          Hello Friends, I am Vairamuthu student of Bachelor of Engineering
+          <br /> in Computer Science and Engineering at Jaya Engineering
+          College.
         </p>
         <div className="row">
           <div className="col-lg-6 mt-2">
-            <ul>
-              <li>
-                <i className="bi bi-chevron-right"></i>{" "}
-                <strong>Birthday:</strong> <span>31 March 2003</span>
-              </li>
-            </ul>
+            <strong>Birthday:</strong>{" "}
+            <span className="text-white">31 March 2003</span>
           </div>
           <div className="col-lg-6 mt-2">
-            <ul>
-              <li>
-                <i className="bi bi-chevron-right"></i> <strong>City:</strong>{" "}
-                <span>Chennai, India</span>
-              </li>
-            </ul>
+            <strong>City:</strong>{" "}
+            <span className="text-white">Chennai, India</span>
           </div>
           <div className="col-lg-6 mt-2">
-            <ul>
-              <li>
-                <i className="bi bi-chevron-right"></i> <strong>Degree:</strong>{" "}
-                <span>Bachelor of Engineering Computer Science Engineer</span>
-              </li>
-            </ul>
+            <strong>Degree:</strong>{" "}
+            <span className="text-white">
+              Bachelor of Engineering Computer Science Engineer
+            </span>
           </div>
           <div className="col-lg-6 mt-2">
-            <ul>
-              <li>
-                <i className="bi bi-chevron-right"></i>{" "}
-                <strong>College:</strong> <span>Jaya Engineering College</span>
-              </li>
-            </ul>
+            <strong>College:</strong>{" "}
+            <span className="text-white">Jaya Engineering College</span>
           </div>
           <div className="col-lg-6 mt-2">
-            <ul>
-              <li>
-                <i className="bi bi-chevron-right"></i> <strong>Email:</strong>{" "}
-                <span>
-                  <a href="mvairamuthu2003@gmail.com">
-                    mvairamuthu2003@gmail.com
-                  </a>
-                </span>
-              </li>
-            </ul>
+            <strong>Email:</strong>{" "}
+            <span className="text-white">
+              <a href="mvairamuthu2003@gmail.com">mvairamuthu2003@gmail.com</a>
+            </span>
           </div>
           <div className="col-lg-6 mt-2">
-            <ul>
-              <li>
-                <i className="bi bi-chevron-right"></i>{" "}
-                <strong>Website:</strong>{" "}
-                <span>
-                  <a href="https://vm-portfolio3.netlify.app/">
-                    https://vm-portfolio3.netlify.app/
-                  </a>
-                </span>
-              </li>
-            </ul>
+            <strong>Website:</strong>{" "}
+            <span className="text-white">
+              <a href="https://vm-portfolio3.netlify.app/">
+                https://vm-portfolio3.netlify.app/
+              </a>
+            </span>
           </div>
           <div className="col-lg-6 mt-2">
-            <ul>
-              <li>
-                <i className="bi bi-chevron-right"></i>{" "}
-                <strong>Freelance:</strong> <span>Available</span>
-              </li>
-            </ul>
+            <strong>Freelance:</strong>{" "}
+            <span className="text-white">Available</span>
           </div>
+          <a
+            target="_blank"
+            href="https://vm-portfolio3.netlify.app/static/media/MyResume.9470512e94cb54a4cd72.pdf"
+          >
+            {" "}
+            <button className="btn"> Resume</button>
+          </a>
         </div>
-        <p>
+        <p className="text-white">
           Working as a Open Source Developer in Google Summer of Codes. Created
-          a few Projects on Full Stack, a few basic HTML Websites, developed
-          Agicultural Websites for the farmers and Community Forum.
+          a few Projects on Full Stack,
+          <br />
+          Blockchain, AI/ML and Datascience
         </p>
       </div>
     </div>

@@ -40,7 +40,7 @@ function BlogPage(props) {
             className="blog-content"
             dangerouslySetInnerHTML={{ __html: "" }}
           ></div>
-          <div className="footer">Written by VM</div>
+          <div className="footer">Written by VM 💙 </div>
         </div>
       </div>
     </div>

@@ -68,7 +68,7 @@ function App(props) {
             <Route exact path="/about" component={About} />
           </div>
           <Route exact path="/stories/:storyName" component={BlogPage} />
-          <div className="footer">Written by Vm</div>
+          <div className="footer">Written by Vm 💙 </div>
         </center>
       </Switch>
     </Router>
